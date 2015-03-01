@@ -1,4 +1,4 @@
-package games.aj.bubbles.util;
+package aj.games.bubbles.util;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

@@ -1,6 +1,6 @@
-package games.aj.bubbles;
+package aj.games.bubbles;
 
-import games.aj.bubbles.util.SystemUiHider;
+import aj.games.bubbles.util.SystemUiHider;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -17,7 +17,7 @@ import android.view.View;
  *
  * @see SystemUiHider
  */
-public class StartActivity extends Activity {
+public class FullscreenActivity extends Activity {
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -50,7 +50,7 @@ public class StartActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_start);
+        setContentView(R.layout.activity_fullscreen);
 
         final View controlsView = findViewById(R.id.fullscreen_content_controls);
         final View contentView = findViewById(R.id.fullscreen_content);

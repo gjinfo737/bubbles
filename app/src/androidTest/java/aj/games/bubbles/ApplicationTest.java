@@ -1,4 +1,4 @@
-package games.aj.bubbles;
+package aj.games.bubbles;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
